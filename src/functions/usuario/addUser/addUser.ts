@@ -12,7 +12,7 @@ export const addUser = (req: Request, res: Response) => {
 
     return res.status(201).send({
         sucesso: true,
-        mensagem: 'Usuário cadastrado com sucesso',
+        mensagem: 'Usuário cadastrado com sucesso!',
         dados: { 'cadastrado': newUser.userID },
     } as IResposta);
 
