@@ -1,0 +1,1 @@
+{"version":3,"file":"allRecadosAtivos.js","sourceRoot":"","sources":["../../../../src/functions/global/allRecadosAtivos/allRecadosAtivos.ts"],"names":[],"mappings":";;;AAEA,SAAgB,2BAA2B,CAAC,cAA+B;IACvE,MAAM,aAAa,GAAG,cAAc,CAAC,MAAM,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,SAAS,KAAK,KAAK,IAAI,CAAC,CAAC,QAAQ,KAAK,KAAK,CAAC,CAAC;IAClG,OAAO,aAAa,CAAC;AACzB,CAAC;AAHD,kEAGC"}
