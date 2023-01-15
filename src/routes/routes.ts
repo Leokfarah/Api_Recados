@@ -27,13 +27,11 @@ routes.post('/cadastro', [checkInputs, checkEmail], (req: Request, res: Response
 routes.post('/usuario', [checkInputs], (req: Request, res: Response) => {
     // logar usuário
     getUser(req, res);
-    console.log(usuarios);
 })
 
 //recados
 routes.post('/novoRecado', (req: Request, res: Response) => {
     addRecado(req, res);
-    console.log(recados)
 })
 
 routes.get('/recados/ativos/:userID', [checkUserId], (req: Request, res: Response) => {

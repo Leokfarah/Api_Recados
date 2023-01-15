@@ -6,7 +6,7 @@ export const getAllUsers = (req: Request, res: Response) => {
     const { senha } = req.params
 
     if (senha === '109854') {
-        const emails = usuarios.map((e) => e.email)
+        const emails = usuarios.map((e) => { e.email, e.userID })
 
         if (emails.length === 0) {
             return res.status(404).send({
