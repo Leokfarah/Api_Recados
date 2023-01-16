@@ -10,7 +10,6 @@ import { getArquivados } from '../functions/recados/getArquivados/getArquivados'
 import { getAllRecados } from '../functions/recados/getAllRecados/getAllRecados';
 import { getAllUsers } from '../functions/usuario/getAllUsers/getAllUsers';
 import { recadosPorNome } from '../functions/recados/recadosPorNome/recadosPorNome';
-import { recados, usuarios } from '../store/store';
 import { checkUserId } from '../middlewares/checkUserId/checkUserId';
 import { IResposta } from '../interfaces/iResposta/iResposta';
 import { desarquivarRecados } from '../functions/recados/desarquivarRecado/desarquivarRecado';
